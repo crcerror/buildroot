@@ -5,7 +5,7 @@ config BR2_PACKAGE_YAD
 	  YAD (yet another dialog) is a tool for create graphical
 	  dialogs from shell scripts.
 
-	  http://sourceforge.net/projects/yad-dialog/
+	  https://github.com/v1cont/yad
 
 comment "yad needs libgtk3 w/ X11 backend"
 	depends on !BR2_PACKAGE_LIBGTK3_X11
